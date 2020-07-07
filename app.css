@@ -4,6 +4,10 @@
   box-sizing:border-box;
   font-family: 'Muli', sans-serif;
 }
+body{
+  height:100vh;
+  overflow:hidden;
+}
 .container{
     background-color:white;
 }
@@ -11,10 +15,10 @@
 .header-section{
   height:25vh;
   width:100%;
-  font-weight: 700;
-  padding-top:5vh;
+  font-weight: 900;
+  padding-top:10px;
   text-align: center;
-  color:white;
+  color:rgba(38,166,154);
 }
 
 .input-field{
@@ -42,10 +46,22 @@
 color:white;
 border-radius:20%;
 text-align:center;
-background-color:rgba(33,182,254,0.5);
+background-color:rgba(38,166,154,0.5);
 width:400px;
 height:300px;
 margin:auto;
 overflow:hidden;
 margin-top:200px;
+}
+
+.mybtn{
+  border:none;
+  padding:1em;
+  transition: box-shadow 0.5s;
+}
+
+.mybtn:hover{
+  border:none;
+  padding:1em;
+  box-shadow:2px 2px 3px rgb(38,166,154);
 }
