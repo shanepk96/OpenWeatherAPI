@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Muli:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="app.css">
+
+    <title></title>
+  </head>
+  <body>
+    <div class="container">
+        <div class="header-section">
+          <h2>Check the forcast!</h2>
+          <div class="input-field">
+            <input  id="city-txt" type="text" class="validate city-name">
+            <label for="city-txt"></label>
+            <button type="button" class="mybtn" name="button">Go!</button>
+          </div>
+        </div>
+</div>
+    <div class="update-background">
+      <div class="videoUpdate">
+      <video autoplay muted loop id="myVideo">
+          <source src="videos/sunny.mp4" type="video/mp4" class="myvideo">
+      </video>
+      </div>
+    <div class="weather-info">
+            <h2 class="cityName">Enter in your City</h2>
+            <h5 class="main_string"></h1>
+            <p> Highs: <span class="hightemp"></span></p>
+            <p> Lows: <span class="lowtemp"></span></p>
+    </div>
+  </div>
+  </body>
+  <script src="app.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+</html>

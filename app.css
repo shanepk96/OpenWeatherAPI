@@ -1,0 +1,51 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+  font-family: 'Muli', sans-serif;
+}
+.container{
+    background-color:white;
+}
+
+.header-section{
+  height:25vh;
+  width:100%;
+  font-weight: 700;
+  padding-top:5vh;
+  text-align: center;
+  color:white;
+}
+
+.input-field{
+  height:1em;
+  color:inherit;
+  display:inline-block;
+  text-align:inherit;
+}
+.update-background{
+  width:100%;
+  height:800px;
+  overflow:hidden;
+  position:relative;
+  text-align:centre;
+}
+.update-background video{
+  width:100%;
+  height:auto;
+  position:absolute;
+  top:-10px;
+  z-index:-1;
+}
+
+.weather-info{
+color:white;
+border-radius:20%;
+text-align:center;
+background-color:rgba(33,182,254,0.5);
+width:400px;
+height:300px;
+margin:auto;
+overflow:hidden;
+margin-top:200px;
+}
